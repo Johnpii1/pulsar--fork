@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ main, 'feature/**' ] # Catches all feature branches
+    branches: [ main, 'feat/**', 'feature/**' ]
   pull_request:
     branches: [ main ]
   workflow_dispatch:
